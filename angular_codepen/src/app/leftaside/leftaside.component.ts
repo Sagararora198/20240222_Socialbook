@@ -1,10 +1,12 @@
 import { Component } from "@angular/core";
-
+import { RouterOutlet } from "@angular/router";
+import { RouterLink } from "@angular/router";
 @Component({
     selector:"left-aside",
     standalone:true,
     templateUrl:'./leftaside.component.html',
     styleUrl:'./leftaside.component.css',
+    imports:[RouterOutlet,RouterLink]
 
 })
 export class LeftAsideComponent{
