@@ -8,6 +8,7 @@ left-aside{
     display: flex;
     background-color: #efefef;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 main-body{
     flex-basis: 47%;
