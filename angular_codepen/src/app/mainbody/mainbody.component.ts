@@ -1,11 +1,12 @@
 import { Component, OnInit } from "@angular/core";
 import { CommonModule } from "@angular/common";
+import { RightMain } from "../rightmain/rightmain.component";
 @Component({
     selector: 'main-body',
     standalone: true,
     templateUrl: './mainbody.component.html',
     styleUrl: './mainbody.component.css',
-    imports: [CommonModule]
+    imports: [CommonModule,RightMain]
 
 
 })

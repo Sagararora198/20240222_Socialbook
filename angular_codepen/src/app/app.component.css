@@ -1,12 +1,13 @@
 left-aside{
-    position: absolute;
     top: 56px;
     height: 100vh;
+    position: sticky;
     
 }
 .container{
     display: flex;
     background-color: #efefef;
+    justify-content: space-between;
 }
 main-body{
     flex-basis: 47%;
@@ -14,6 +15,7 @@ main-body{
     top: 65px;
     left: 241px;
     background-color: #efefef;
+    left: 0px;
 }
 right-main{
     flex-basis: 25%;
@@ -26,4 +28,12 @@ right-main{
     color: #626262;
     position: relative;
     left: 288px;
+    border: 2px solid white;
+    background-color: white;
 }
+right-main{
+    position: sticky;
+   
+    margin-right: 212px;
+}
+    
